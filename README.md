@@ -1,50 +1,136 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# 🛡️ ShieldHer
 
-## Get started
+**ShieldHer** is an AI-powered women safety application designed to provide **proactive protection**, not just reactive emergency response.
 
-1. Install dependencies
+It combines **real-time location intelligence, smart safety mapping, voice-triggered alerts, and emergency tools** into one unified platform.
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## 🚨 Problem Statement
 
-   ```bash
-   npx expo start
-   ```
+Most existing safety solutions are **reactive** — they respond *after* danger occurs.
 
-In the output, you'll find options to open the app in a
+- SOS apps require manual interaction
+- Fake emergency alerts are often delayed
+- No real-time risk awareness
+- Lack of integrated safety tools
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 💡 Our Solution
 
-## Get a fresh project
+ShieldHer introduces a **proactive safety system** that:
 
-When you're ready, run:
+- Detects potential risk zones
+- Suggests safer routes
+- Enables hands-free emergency activation
+- Provides quick escape tools
+
+---
+
+## ✨ Key Features
+
+### 🚨 SOS Emergency Alert
+- One-tap emergency trigger
+- Sends location instantly
+- Designed for quick access in panic situations
+
+---
+
+### 🧠 AI-Based Risk Detection
+- Dynamically identifies risk level (Low / Moderate / High)
+- Simulates intelligent environment awareness
+
+---
+
+### 🗺 Smart Safety Map
+- Displays live user location
+- Highlights high-risk zones (heatmap)
+- Visual safety awareness
+
+---
+
+### 🎤 Voice Activation (Hands-Free)
+- Trigger emergency using voice
+- Useful when user cannot access phone
+
+---
+
+### 📞 Fake Call Feature
+- Simulates an incoming call
+- Helps users escape uncomfortable or unsafe situations
+
+---
+
+### 📍 Live Location Sharing
+- Sends current location via SMS link
+- Enables quick communication with contacts
+
+---
+
+### 🚕 Safe Ride Integration
+- Direct access to Uber / Ola
+- Provides safer mobility options
+
+---
+
+### ⚙️ Additional Tools
+- Evidence mode (future scope)
+- Community safety features
+- Emergency contacts integration
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** React Native (Expo)
+- **Maps:** React Native Maps (Google Maps)
+- **Location:** Expo Location API
+- **Voice:** Expo Speech
+- **Backend (Future Scope):** Firebase / Twilio
+
+---
+
+
+
+---
+
+## 🎯 Design Philosophy
+
+> “Emergency apps should reduce thinking time.”
+
+- Minimal UI
+- High visibility of critical actions
+- Fast response interactions
+- Low cognitive load
+
+---
+
+## 🚀 Future Enhancements
+
+- 🔴 Real-time crime data integration
+- 📡 Firebase-based live tracking
+- 📩 Automated SMS using backend APIs (Twilio)
+- 🤖 AI-based predictive safety scoring
+- 🎙 Real voice recognition (keyword detection)
+- 🔐 Secure evidence storage (blockchain-ready)
+
+---
+
+
+---
+
+## 🧠 Inspiration
+
+ShieldHer is built on the idea that:
+
+> “Safety should be proactive, intelligent, and instant.”
+
+---
+
+## 📌 How to Run
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+npm install
+npx expo start
