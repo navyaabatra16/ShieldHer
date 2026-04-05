@@ -7,6 +7,12 @@ It combines **real-time location intelligence, smart safety mapping, voice-trigg
 
 ---
 
+## 📌 How to Run the app
+
+```bash
+npm install
+npx expo start --tunnel
+
 ## 🚨 Problem Statement
 
 Most existing safety solutions are **reactive** — they respond *after* danger occurs.
@@ -129,8 +135,4 @@ ShieldHer is built on the idea that:
 
 ---
 
-## 📌 How to Run
 
-```bash
-npm install
-npx expo start
